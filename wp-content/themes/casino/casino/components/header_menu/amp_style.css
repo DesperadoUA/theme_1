@@ -1,0 +1,25 @@
+.hamburger {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+}
+#sidebar1 {
+    background: #0b072b;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+.nav_menu {
+    list-style: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.nav_menu li {
+    margin-bottom: 10px;
+}
+.nav_menu a {
+    color: white;
+}

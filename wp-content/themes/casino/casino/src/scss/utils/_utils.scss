@@ -1,0 +1,7 @@
+.u-mobile{
+  @include media('>=desktop'){ display: none !important; }
+}
+
+.u-desktop{
+  @include media('<desktop'){ display: none !important; }
+}

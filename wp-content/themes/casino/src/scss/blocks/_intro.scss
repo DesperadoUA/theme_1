@@ -1,0 +1,13 @@
+.intro {
+    @extend %clearfix;
+    color: #cdcecf;
+    margin-bottom: 16px;
+
+    h1, h2 {
+        @include adaptive-font(24, 28);
+        color: #fff;
+        font-weight: 700;
+        line-height: 1.065;
+        margin-bottom: 21px;
+    }
+}

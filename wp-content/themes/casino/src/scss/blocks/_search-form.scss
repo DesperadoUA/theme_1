@@ -1,0 +1,25 @@
+.search-form {
+    position: relative;
+    margin-bottom: 32px;
+
+    @include media('>=desktop') {
+        margin-bottom: 14px;
+    }
+
+    .search-form__control {
+        padding-left: 41px;
+
+        @include media('>=desktop') {
+            padding-left: 35px;
+        }
+    }
+
+}
+
+.icon-search {
+    @include ycenter;
+    left: 14px;
+    font-size: 18px;
+    color: #fff;
+}
+
