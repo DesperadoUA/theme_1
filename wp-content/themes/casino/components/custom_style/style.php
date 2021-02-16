@@ -243,5 +243,29 @@
                 color: {$reviews_button_text};
             }";
         }
+        if(!empty($color_heading_game_card)) {
+          echo "
+            .games-item__ttl {
+                color: {$color_heading_game_card};
+            }";
+        }
+        if(!empty($jackpot_text_color_before)) {
+          echo "
+            .jackpot__ttl {
+                color: {$jackpot_text_color_before};
+            }";
+        }
+        if(!empty($users_color_text_before)) {
+          echo "
+            .winner__ttl {
+                color: {$users_color_text_before};
+            }";
+        }
+        if(!empty($users_color_text)) {
+          echo "
+            .winner__name {
+                color: {$users_color_text};
+            }";
+        }
         ?>
 </style>

@@ -50,5 +50,9 @@ $reviews_input_text_color = carbon_get_theme_option( 'reviews_input_text_color' 
 $reviews_input_color = carbon_get_theme_option( 'reviews_input_color' );
 $reviews_button_color = carbon_get_theme_option( 'reviews_button_color' );
 $reviews_button_text = carbon_get_theme_option( 'reviews_button_text' );
+$color_heading_game_card = carbon_get_theme_option( 'color_heading_game_card' );
+$jackpot_text_color_before = carbon_get_theme_option( 'jackpot_text_color_before' );
+$users_color_text_before = carbon_get_theme_option( 'users_color_text_before' );
+$users_color_text = carbon_get_theme_option( 'users_color_text' );
 
 if(!IS_AMP) include "style.php";

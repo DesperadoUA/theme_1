@@ -14,6 +14,7 @@ function crb_attach_theme_options() {
             Field::make('color', 'header_menu_color', 'Цвет заднего фона меню в хедере (#1c3576)'),
             Field::make('color', 'color_text_main', 'Цвет текста на главной странице'),
             Field::make('color', 'color_heading_main', 'Цвет заголовков'),
+            Field::make('color', 'color_heading_game_card', 'Цвет заголовков в картах игр'),
             Field::make('image', 'main_bg', 'Картинка для заднего фона основного контента (45x50)')
             ->set_value_type( 'url' ),
             Field::make('color', 'color_nav_menu', 'Цвет текста меню шорткода [nav_menu]'),

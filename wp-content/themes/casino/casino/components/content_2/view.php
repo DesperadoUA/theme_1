@@ -1,1 +1,0 @@
-<?= wpautop($data['content']); ?>

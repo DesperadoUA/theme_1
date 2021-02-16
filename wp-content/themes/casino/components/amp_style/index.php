@@ -49,6 +49,9 @@ $reviews_input_text_color = carbon_get_theme_option( 'reviews_input_text_color' 
 $reviews_input_color = carbon_get_theme_option( 'reviews_input_color' );
 $reviews_button_color = carbon_get_theme_option( 'reviews_button_color' );
 $reviews_button_text = carbon_get_theme_option( 'reviews_button_text' );
+$color_heading_game_card = carbon_get_theme_option( 'color_heading_game_card' );
+$users_color_text_before = carbon_get_theme_option( 'users_color_text_before' );
+$users_color_text = carbon_get_theme_option( 'users_color_text' );
 ?>
 <style amp-boilerplate>
     body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
@@ -312,6 +315,24 @@ $reviews_button_text = carbon_get_theme_option( 'reviews_button_text' );
           echo "
             .submit_ajax_comment {
                 color: {$reviews_button_text};
+            }";
+        }
+        if(!empty($color_heading_game_card)) {
+          echo "
+            .games-item__ttl {
+                color: {$color_heading_game_card};
+            }";
+        }
+        if(!empty($users_color_text_before)) {
+          echo "
+            .winner__ttl {
+                color: {$users_color_text_before};
+            }";
+        }
+        if(!empty($users_color_text)) {
+          echo "
+            .winner__name {
+                color: {$users_color_text};
             }";
         }
         ?>

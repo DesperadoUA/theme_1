@@ -65,7 +65,6 @@ if(navMenuItem.length !== 0) {
 
 const close = document.querySelector('.close')
 if(close) {
-    console.log('THis')
     const stickyButtons = document.querySelector('.sticky_buttons')
     close.addEventListener('click', function () {
         stickyButtons.classList.add('hide')

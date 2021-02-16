@@ -8,7 +8,7 @@
                         <h1><?php the_title(); ?></h1>
 
                         <?php while( have_posts() ) : the_post();?>
-                        <?php include 'components/banner-game/dal.php'; ?>
+                            <?php include 'components/banner-game/dal.php'; ?>
                             <?php include 'components/content/dal.php'; ?>
                         <?php endwhile; ?>
                     </div>

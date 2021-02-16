@@ -10,6 +10,7 @@ function jackpot() {
             Field::make('text', 'jackpot_text', 'Текст джекпота'),
             Field::make('text', 'jackpot_link', 'Ссылка на блоке'),
             Field::make('text', 'jackpot_text_before', 'Текст перед блоком'),
+            Field::make('color', 'jackpot_text_color_before', 'Цвет текст перед блоком'),
             Field::make('color', 'jackpot_bg', 'Цвет заднего фона')
         ));
 }

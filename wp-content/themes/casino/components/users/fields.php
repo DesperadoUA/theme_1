@@ -10,6 +10,8 @@ function user()
         ->set_page_parent('crb_carbon_fields_container.php')
         ->add_fields(array(
             Field::make('text', 'users_ref', 'Ссылка на блок'),
+            Field::make('color', 'users_color_text_before', 'Цвет текста перед блоком'),
+            Field::make('color', 'users_color_text', 'Цвет текста заголовка'),
             Field::make('image', 'users_default_image', 'Дефолтное изображение в блоке')
 						->set_value_type( 'url' ),
             Field::make( 'complex', 'users_online' )
